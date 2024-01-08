@@ -37,18 +37,21 @@ Before running the application, ensure that you have the following installed:
    git clone https://github.com/fadyzar/tradingPlatform.git
 Change into the project directory:
 
-bash
+  ```bash
 
 cd tradingPlatform
+```
 Install dependencies:
 
-bash
+```bash
 npm install
+```
 Usage
 To start the application, run the following command:
 
-bash
+```bash
 npm start
+```
 Visit https://tradecraftpro.netlify.app/ in your browser to access the deployed application.
 
 Technologies Used
