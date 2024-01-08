@@ -1,0 +1,16 @@
+.custom-modal {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .custom-modal h2{
+    color: aqua;
+  }
+  
+  .custom-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  

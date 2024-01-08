@@ -1,0 +1,38 @@
+.walletPage {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    margin-top: 200px;
+  }
+  
+  .transaction-history,
+  .portfolio-overview {
+    margin-top: 20px;
+  }
+  
+  .add-funds-button,
+  .withdraw-funds-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-funds-button:hover,
+  .withdraw-funds-button:hover {
+    background-color: #45a049;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .walletPage {
+      margin-top: 100px; 
+    }
+  
+    .add-funds-button,
+    .withdraw-funds-button {
+      font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+  }
